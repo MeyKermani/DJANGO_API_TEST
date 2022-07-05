@@ -15,3 +15,4 @@ You can use a POST API endpoint via this url to create an address for a user.
 ```
   - address/
 ```
+Notification part works with a simple django 'post_save' signal. We can use Celery and a RabbitMQ or Redis backend to improve this part.
